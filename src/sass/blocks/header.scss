@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  min-height: 84px;
+  background-color: $light-grey;
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1188px;
+  min-width: 769px;
+  margin: auto;
+  padding: 0 5px;
+}
+
+.header__logo {
+  width: 134px;
+  max-height: 100%;
+  margin-right: auto;
+  overflow: hidden;
+  color: $graphite;
+
+  &:hover{
+    color: $red;
+  }
+
+  &:focus{
+    outline:1px solid $red;
+  }
+}
+
+.header__nav {
+  max-height: 100%;
+  max-width: 80%;
+}
